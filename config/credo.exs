@@ -24,6 +24,27 @@
         # To deactivate a check:
         # Put `false` as second element:
         {Credo.Check.Design.TagFIXME, false},
+
+        ## Readability Checks
+        {Credo.Check.Readability.AliasOrder, []},
+        {Credo.Check.Readability.FunctionNames, []},
+        {Credo.Check.Readability.LargeNumbers, []},
+        {Credo.Check.Readability.MaxLineLength, [priority: :low, max_length: 120]},
+        {Credo.Check.Readability.ModuleAttributeNames, []},
+        {Credo.Check.Readability.ModuleDoc, []},
+        {Credo.Check.Readability.ModuleNames, []},
+        {Credo.Check.Readability.ParenthesesInCondition, []},
+        {Credo.Check.Readability.ParenthesesOnZeroArityDefs, []},
+        {Credo.Check.Readability.PredicateFunctionNames, []},
+        {Credo.Check.Readability.PreferImplicitTry, []},
+        {Credo.Check.Readability.RedundantBlankLines, []},
+        {Credo.Check.Readability.Semicolons, []},
+        {Credo.Check.Readability.SpaceAfterCommas, []},
+        {Credo.Check.Readability.StringSigils, []},
+        {Credo.Check.Readability.TrailingBlankLine, []},
+        {Credo.Check.Readability.TrailingWhiteSpace, []},
+        {Credo.Check.Readability.UnnecessaryAliasExpansion, []},
+        {Credo.Check.Readability.VariableNames, []},
       ]
     }
   ]
