@@ -94,7 +94,7 @@
         {Credo.Check.Readability.TrailingBlankLine, []},
         {Credo.Check.Readability.TrailingWhiteSpace, []},
         # TODO: enable by default in Credo 1.1
-        {Credo.Check.Readability.UnnecessaryAliasExpansion, max_deps: 5},
+        {Credo.Check.Readability.UnnecessaryAliasExpansion, []},
         {Credo.Check.Readability.VariableNames, []},
 
         #
@@ -145,7 +145,7 @@
         {Credo.Check.Refactor.ABCSize, false},
         {Credo.Check.Refactor.AppendSingleItem, false},
         {Credo.Check.Refactor.DoubleBooleanNegation, false},
-        {Credo.Check.Refactor.ModuleDependencies, []},
+        {Credo.Check.Refactor.ModuleDependencies, max_deps: 5},
         {Credo.Check.Refactor.VariableRebinding, false},
         {Credo.Check.Warning.MapGetUnsafePass, false},
         {Credo.Check.Warning.UnsafeToAtom, false}
