@@ -1,6 +1,7 @@
 defmodule CredoSampleModule do
   alias App.Module1
   alias App.Module2.{Module3}
+  alias ModuleA.{Foo}
 
   def some_function do
     [
