@@ -145,7 +145,7 @@
         {Credo.Check.Refactor.ABCSize, false},
         {Credo.Check.Refactor.AppendSingleItem, false},
         {Credo.Check.Refactor.DoubleBooleanNegation, false},
-        {Credo.Check.Refactor.ModuleDependencies, max_deps: 5},
+        {Credo.Check.Refactor.ModuleDependencies, max_deps: 3},
         {Credo.Check.Refactor.VariableRebinding, false},
         {Credo.Check.Warning.MapGetUnsafePass, false},
         {Credo.Check.Warning.UnsafeToAtom, false}
