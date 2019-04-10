@@ -45,6 +45,9 @@
         {Credo.Check.Readability.TrailingWhiteSpace, []},
         {Credo.Check.Readability.UnnecessaryAliasExpansion, false},
         {Credo.Check.Readability.VariableNames, []},
+
+        # Refactor
+        {Credo.Check.Refactor.ModuleDependencies, max_deps: 3, excluded_path: []},
       ]
     }
   ]
